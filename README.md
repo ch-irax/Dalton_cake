@@ -1,6 +1,6 @@
 # 🍰 Dalton's Cakes
 
-![Dalton's Cakes](hero_cake_display_1772160962832.png)
+![Dalton's Cakes](pictures/hero_cake_display_1772160962832.png)
 
 A beautiful, responsive front-end landing page for **Dalton's Cakes** (also known as Sweet Elevation), a premium artisanal cake bakery. 
 
@@ -34,7 +34,7 @@ No build step or server is required. You can simply open the file, though using 
 - `index.html`: The main landing page.
 - `styles.css`: Custom CSS for animations and minor visual tweaks.
 - `script.js`: Additional JavaScript logic.
-- `*.png`: Various cake display images used across the site.
+- `pictures/*.png`: Various cake display images used across the site.
 
 ## 🧑‍💻 Author
 
