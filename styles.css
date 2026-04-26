@@ -1,0 +1,97 @@
+/* Custom CSS for Sweet Elevation */
+
+:root {
+  --pastel-pink: #f8e1e9;
+  --warm-cream: #fff5e6;
+  --deep-chocolate: #4a2c2a;
+  --gold-accent: #d4af37;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--warm-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--deep-chocolate);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-accent);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Parallax Placeholder Utility */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Section Transitions */
+section {
+  position: relative;
+}
+
+/* Glassmorphism adjustments */
+.backdrop-blur-md {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+/* Custom Hero Layout */
+#home h1 {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* Smooth Fade In for images as they load */
+img {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Custom Typography Details */
+.font-serif {
+  letter-spacing: -0.02em;
+}
+
+/* Hover effects for contact icons */
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
