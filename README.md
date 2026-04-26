@@ -4,6 +4,8 @@
 
 A beautiful, responsive front-end landing page for **Dalton's Cakes** (also known as Sweet Elevation), a premium artisanal cake bakery. 
 
+**🌐 Live Demo:** [https://daltonbakes.vercel.app/](https://daltonbakes.vercel.app/)
+
 ## ✨ Features
 
 - **Modern UI/UX**: Elegant design with premium colors (Warm Cream, Deep Chocolate, Gold Accent, Pastel Pink).
